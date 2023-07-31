@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osha System</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .header h2 {
+            position: absolute;
+            top: 100%;
+            left: 100px;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        .header .invitation-link {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .header .invitation-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="../img/logo.png"><img>Logo
+        </a>
+
+        <h2>Services<br>Viber <i class='bx bxl-whatsapp' ></i> <a class="invitation-link" href="https://invite.viber.com/?g=hhR3M59uRlDEq-HiH1QihYMqvrTIWgME">✉️НОВА ПОШТА🇺🇦</a></h2>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="wrapper">
+            <span class="icon-close">
+                <i class="bx bx-x"></i>
+            </span>
+
+            <div class="logreg-box">
+                <!-- login form -->
+                <div class="form-box login">
+                    <div class="logreg-title">
+                        <h2>Login</h2>
+                        <p>Please login to use the platform</p>
+                    </div>
+
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <input type="mail" required>
+                            <label>Email</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+
+                        <div class="remember-forgot">
+                            <label><input type="checkbox"> Remeber me</label>
+                            <a href="#">Forgot password?</a>
+                        </div>
+
+                        <button type="submit" class="btn">Login</button>
+
+                        <div class="logreg-link">
+                            <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- register form -->
+                <div class="form-box register">
+                    <div class="logreg-title">
+                        <h2>Registration</h2>
+                        <p>Please provide the following to verify your identity</p>
+                    </div>
+
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-user'></i></span>
+                            <input type="text" required>
+                            <label>Full Name</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <input type="mail" required>
+                            <label>Email</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+
+                        <div class="remember-forgot">
+                            <label><input type="checkbox"> I agree to the terms & conditions</label>
+                        </div>
+
+                        <button type="submit" class="btn">Register</button>
+
+                        <div class="logreg-link">
+                            <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="media-options">
+                <a href="#">
+                    <i class='bx bxl-google'></i>
+                    <span>Login with Google</span>
+                </a>
+                <a href="#">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
